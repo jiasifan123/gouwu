@@ -1,0 +1,253 @@
+/*
+* @Author: 贾思凡
+* @Date:   2018-02-28 16:45:26
+* @Last Modified by:   贾思凡
+* @Last Modified time: 2018-03-04 15:46:32
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 561407 */
+  src: url('https://at.alicdn.com/t/font_561407_5svgczlythk9be29.eot');
+  src: url('https://at.alicdn.com/t/font_561407_5svgczlythk9be29.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_561407_5svgczlythk9be29.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_561407_5svgczlythk9be29.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_561407_5svgczlythk9be29.svg#iconfont') format('svg');
+}
+#head{
+	width: 100%;
+	height: 1.34rem;
+	position: relative;
+	float: left;
+	background-color: #F9F9F9;
+	/* background-image: url('../img/18_syz_pc.jpg'); */
+}
+.head_title{
+	width: 100%;
+	height: 0.98rem;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	top: 0;
+}
+.head_title span{
+	font-family: 'iconfont';
+	margin-left: 0.5rem;
+	margin-top:0.36rem;
+	font-size: 0.6rem;
+	float: left;
+
+}
+.head_title .Cart{
+	margin-left:3.8rem;
+	font-size: 0.5rem;
+	margin-top: 0.36rem;
+	float: left;
+}
+#main{
+	width: 100%;
+	position: absolute;
+	bottom: 1.3rem;
+	top: 1.34rem;
+	left: 0;
+	right: 0;
+	background-color: #e0e0e0;
+}
+.product{
+	width: 100%;
+	height: 3.97rem;
+	background-color: #fff;
+
+	
+}
+.product1{
+	width: 100%;
+	height: 3.33rem;
+	background-color: #fff;
+	border-top: 0.01rem solid #959595;
+	border-bottom: 0.01rem solid #959595;
+	
+}
+.product  .icon{
+	font-family: 'iconfont';
+	font-size: 0.46rem;
+	margin-left: 0.45rem;
+	float: left;
+	line-height: 3.33rem;
+}
+.product img {
+	width: 2.42rem;
+	height: 2.53rem;
+	float: left;
+	margin-left: 0.45rem;
+	margin-top: 0.4rem;
+}
+.product .name{
+	float: left;
+	font-size: 0.4rem;
+	display: block;
+	margin-top: 0.4rem;
+	width: 6.58rem;
+}
+.product .price{
+	float: left;
+	font-size: 0.4rem;
+	display: block;
+	margin-top: 1.5rem;
+}
+.product .num{
+	float: left;
+	font-size: 0.4rem;
+	display: block;
+	margin-top: 1.3rem;
+	width: 2.38rem;
+	height: 0.7rem;
+	border: 1px solid #959595;
+	margin-left: 1rem;
+
+}
+.num span{
+	margin-left: 0.4rem;
+	margin-top: 0.1rem;
+	display: block;
+	float: left;
+}
+.product p{
+	font-size: 0.4rem;
+	float: left;
+	margin-top: 1.4rem;
+	margin-left: 0.66rem;
+}
+.like{
+	margin-top: 0.2rem;
+	width: 100%;
+	height: 5.4rem;
+	background-color: #fff;
+	display: flex;
+	overflow-x:scroll;
+	flex-shrink: 0;
+	flex-wrap: nowrap;
+}
+.like::-webkit-scrollbar{/* 伪类选择器 */
+	display: none;/* 消失 */
+	/* display: block; *//* 显示 */
+}
+.like_item{
+	width: 6.1rem;
+	height: 5.4rem;
+	float: left;
+} 
+.like_item .title{
+	width: 100%;
+	font-size: 0.44rem;
+	text-align: center;
+	height: 0.64rem;
+	border-right: 0.01rem solid #efefef;
+	margin-top: 0.3rem;
+}
+.like_item  .title1{
+	color: #fe6700;
+}
+.like_item .bottom{
+	height: 4.46rem;
+	width: 6.1rem;
+
+}
+.bottom .like_bottom_item{
+	width:2.66rem;
+	justify-content:center;
+	align-content:space-between;
+	float: left;
+	margin-right: 0.1rem;
+	margin-left: 0.2rem;
+}
+.like_bottom_item img{
+	width: 2.43rem;
+	height: 2.61rem;
+	/* margin-top: 0.35rem; */
+}
+.like_bottom_item  .name{
+	width: 2.66rem;
+	height: 0.4rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 0.3rem;
+	margin-top: 0.1rem;
+	
+}
+.like_bottom_item  span{
+	font-size: 0.3rem;
+	margin-top: 0.2rem;
+	display: block;
+	margin-left: 0.6rem;
+	color: #ef6700;
+}
+
+
+
+.zongji{
+	height: 1.3rem;
+	width: 100%;
+	position: absolute;
+	bottom: 0; 
+	background-color: #fff;
+/* 	float: left; */
+}
+.zongji .sum{
+	width: 7.01rem;
+	font-size: 0.6rem;
+	line-height: 1.3rem;
+	float: left;
+}
+.zongji .count{
+	width: 3.79rem;
+	background-color: #fe6700;
+	float: left;
+	font-size: 0.5rem;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	padding-left: 0.6rem;
+	color: #fff;
+
+}
+.sum .money{
+	font-size: 0.6rem;
+	color: #fe6700;
+}
+.footer{
+	height: 1.3rem;
+	width: 100%;
+	 position: absolute;
+	 bottom: 0; 
+	 border-top: 0.04rem solid #f0f0f0;
+/* 	float: left; */
+}
+.footer span{
+	font-family: "iconfont";
+	font-size: 0.70rem;
+	margin-left: 1.8rem;
+	color: #333;
+	float: left;
+	display: block;
+}
+.footer .icon{
+	margin-left: 1.5rem;
+	color: #333;
+}
+.footer .icon1{
+	margin-left: 1.60rem;
+	color: #fe6500;
+}
+.footer p{
+	display: block;
+	font-size: 0.3rem;
+	margin-left: 1.8rem;
+	color: #808080;
+	float: left;
+	margin-top: 0.1rem;
+}
+.footer .footer_item{
+	margin-left: 1.6rem;
+}
+.footer .footer_item1{
+	margin-left: 1.4rem;
+}
+
+
